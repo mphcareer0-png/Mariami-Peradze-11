@@ -272,3 +272,73 @@
     margin-left: 32px;
 }
 /* destination section complete */
+
+/* girl pic */
+
+.girl-section{
+   max-width: 1312px;
+    width: 95%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    padding: 64px 0px;
+}
+.girl{  
+    width: 100%;
+    display: block;
+}
+
+.point{
+    font-size: 23px;
+    color:#F85E9F;
+    font-family: "Abel", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 20%;
+}
+.dream-location{
+    font-size: 44px;
+    color:#191825;
+    font-family: "Abel", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.popular{
+   font-size: 18px;
+   color:#19182580 ; 
+   font-family: "Abel", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+.info{
+  width: 441px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 64px;
+    align-items: center;
+}
+.wraper{
+    width: 441px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 32px;
+    row-gap: 32px;
+}
+.box-t{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        flex-direction: column;
+}
+.box{
+    color: #ff5722;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    font-family: "Inter 28pt";
+}
