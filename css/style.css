@@ -201,6 +201,9 @@
     height: 100px;
     border-radius: 100px;
     border: 1px solid #1918251A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .white.arrow{
    color: #191825;
