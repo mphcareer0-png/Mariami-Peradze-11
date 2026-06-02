@@ -285,7 +285,7 @@
 }
 .girl{  
     width: 100%;
-    display: block;
+    display: flex;
 }
 
 .point{
@@ -321,10 +321,10 @@
 }
 .wraper{
     width: 441px;
+
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    column-gap: 32px;
+    justify-content: space-between;
     row-gap: 32px;
 }
 .box-t{
@@ -342,3 +342,4 @@
     letter-spacing: 0%;
     font-family: "Inter 28pt";
 }
+/* girl pic complete */
