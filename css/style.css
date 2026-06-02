@@ -295,6 +295,7 @@
   font-weight: 400;
   font-style: normal;
   letter-spacing: 20%;
+  
 }
 .dream-location{
     font-size: 44px;
@@ -302,6 +303,8 @@
     font-family: "Abel", sans-serif;
   font-weight: 400;
   font-style: normal;
+  margin-top: 16px;
+ margin-bottom: 32px;
 }
 
 .popular{
@@ -321,17 +324,17 @@
 }
 .wraper{
     width: 441px;
-
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     row-gap: 32px;
+    align-items: flex-start;
 }
 .box-t{
     display: flex;
         justify-content: center;
         align-items: center;
-        width: 400px;
+        width: 200px;
         flex-direction: column;
 }
 .box{
@@ -343,3 +346,86 @@
     font-family: "Inter 28pt";
 }
 /* girl pic complete */
+
+
+
+/* features section */
+
+.features-section{
+    max-width: 1312px;
+    width: 90%;
+    height: 871px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 64px;
+}
+.large-div{
+    max-width: 1312px;
+    width: 100%;
+    padding: 64px 0px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 64px;
+}
+.head-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.key{
+    font-size: 23px;
+    color:#F85E9F;
+    font-family: "Abel", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 20%;
+}
+.offer{
+    font-size: 44px;
+    color:#191825;
+    font-family: "Abel", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+ margin-top: 16px;
+ margin-bottom: 32px;
+}
+.popular{
+   font-size: 18px;
+   color:#19182580 ; 
+   font-family: "Abel", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.three-spot{
+    width: 1312px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+        
+
+}
+.card-item{
+    display: flex;
+    align-items: center;
+   column-gap: 32px;
+}
+
+.marker-text{
+    font-size: 23px;
+     color:#191825;
+    font-family: "Abel", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+
+}
+.span-text{
+    font-size: 18px;
+     color:#19182580 ; 
+   font-family: "Abel", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* features section complete */
