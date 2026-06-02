@@ -68,6 +68,9 @@
     justify-content: center;
     align-items: center;
 }
+.burger-bar{
+    display: none;
+}
 
 /* logo section complete */
 
@@ -489,3 +492,32 @@
     font-size: 18px;
 }
 /* footer complete */
+
+
+/* responsive */
+
+/* tablet */
+
+@media (max-width: 1024px) {
+   .header-container{
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+   }
+   .burger-bar{
+    order: 1
+   }
+    .logo-div{
+        order: 2;
+    }
+
+}
+/* tablet */
+
+
+
+/* mobile */
+
+@media (max-width: 430px) {
+
+}
